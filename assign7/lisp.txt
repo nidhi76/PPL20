@@ -1,0 +1,21 @@
+iterative
+(defun factorial (n)
+ (loop for result = 1 then (*result i)
+	for i from 2 to n
+	finally (return result))
+
+
+recursive
+
+(defun factorial (number)
+(if (=number 0) 1
+(* number(facotrial(- number 1)))))
+
+
+
+nth element from a list
+
+'(a b c d)
+
+(nth 2 '(a b c d))
+
